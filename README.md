@@ -1,45 +1,434 @@
-# Lovable Project Cloner
+BUILD A POWERFUL AI APP DEVELOPER + MULTI-AGENT AI PLATFORM INSIDE AI REEL BOOSTER
 
-A simple script to download source code from Lovable.dev projects to your local machine. It handles the API requests, decodes binary files, and reconstructs the directory structure automatically.
+Mujhe AI Reel Booster ke andar ek powerful, production-ready AI App Developer / AI Coding Agent platform banana hai.
 
-### Installation
+Iska purpose ye hai ki authorized project ko user natural language commands se directly analyze, edit, develop, test, build, debug aur improve kar sake.
 
-**Using uv:**
-```bash
-uv sync
-```
+IMPORTANT:
+Ye sirf chatbot nahi hona chahiye.
+Ye ek actual AI-powered software development environment hona chahiye.
 
-**Using pip:**
-```bash
-pip install aiohttp pydantic-settings python-dotenv
-```
+==================================================
+1. PROJECT / CODE CONNECTION
+==================================================
 
-### Authentication
+Existing application ki coding ko securely connect/import karne ka system banao.
 
-The script requires a `BEARER_TOKEN`. You can provide this in two ways:
+Support:
+- GitHub repository connection
+- Existing project import
+- Project files scan
+- Project structure detection
+- Frontend detection
+- Backend detection
+- Database detection
+- API detection
+- Configuration detection
+- Dependencies detection
+- Environment configuration detection
 
-1. **Terminal:** `export BEARER_TOKEN="Bearer your_token_here"`
-2. **.env file:** Create a `.env` file in the root directory and add `BEARER_TOKEN="Bearer your_token_here"`
+AI automatically poore project ko analyze karke project architecture samjhe.
 
-**How to find your token:** 
-1. Open any project on Lovable.
-2. Open Browser DevTools (F12) -> **Network** tab.
-3. Refresh the page and click on a request to `api.lovable.dev`.
-4. Copy the value of the `authorization` request header.
+AI ko project ke relevant code ka context mile, lekin unnecessary files/context load na ho.
 
-### Usage
+==================================================
+2. AI DEVELOPER CHAT
+==================================================
 
-```bash
-# Using uv
-uv run main.py <lovable-project-url>
+App ke andar ek powerful AI Developer Chat banao.
 
-# Using python directly
-python main.py <lovable-project-url>
-```
+User simple natural language me instruction de sake:
 
-**Options:**
-- `--force`: Overwrite the project folder if it already exists locally.
-- Projects are saved in the `./projects/` directory, named by their unique ID.
+"Home screen change karo"
+"Dark mode add karo"
+"Login page improve karo"
+"Google login add karo"
+"Reel upload feature add karo"
+"Ye error fix karo"
+"App fast karo"
+"Naya feature build karo"
+"Is button ka design change karo"
 
-### Development Note
-If you are using `uv` and want to enable local caching of API responses, the `dev` dependency group includes `aiohttp-client-cache`. To use it, set `AIOHTTP_CACHE_DIR` in your environment or `.env` file.
+AI sirf explanation na de.
+
+AI ko authorized project ke actual code me changes prepare karne chahiye.
+
+==================================================
+3. COMPLETE AI DEVELOPMENT WORKFLOW
+==================================================
+
+Har request ka workflow:
+
+USER REQUEST
+↓
+PROJECT ANALYSIS
+↓
+AI PLAN
+↓
+TASK BREAKDOWN
+↓
+SPECIALIZED AI AGENTS
+↓
+CODE GENERATION
+↓
+CODE REVIEW
+↓
+SECURITY CHECK
+↓
+TESTING
+↓
+BUILD
+↓
+DIFF PREVIEW
+↓
+USER APPROVAL
+↓
+APPLY CHANGES
+↓
+VERSION BACKUP
+↓
+FINAL BUILD
+↓
+PREVIEW
+
+Production changes ke liye additional approval required ho.
+
+==================================================
+4. DIFF PREVIEW
+==================================================
+
+Changes apply karne se pehle clearly show karo:
+
+- Changed files
+- Added files
+- Deleted files
+- Old code
+- New code
+- What changed
+- Why it changed
+- Possible risks
+- Dependencies affected
+
+Buttons:
+
+APPROVE
+REJECT
+EDIT
+UNDO
+RESTORE
+APPLY
+
+==================================================
+5. VERSION CONTROL
+==================================================
+
+Har major change ka automatic backup/version banao.
+
+Features:
+
+- Version history
+- Restore previous version
+- Undo changes
+- Redo changes
+- Compare versions
+- Change description
+- Timestamp
+- User information
+- AI-generated commit message
+
+Git/GitHub integration available ho.
+
+AI changes ke liye separate branch create kar sake.
+
+User review ke baad changes merge/apply kiye ja saken.
+
+==================================================
+6. BUILD SYSTEM
+==================================================
+
+AI Developer ko project build system se connect karo.
+
+Workflow:
+
+CODE CHANGE
+→ BUILD
+→ ERROR DETECTION
+→ ERROR ANALYSIS
+→ FIX PROPOSAL
+→ USER APPROVAL
+→ FIX
+→ BUILD AGAIN
+
+Build logs clearly show karo.
+
+Status:
+
+ANALYZING
+PLANNING
+CODING
+BUILDING
+TESTING
+FIXING
+SUCCESS
+FAILED
+
+==================================================
+7. AUTOMATIC DEBUGGING
+==================================================
+
+Build ya runtime error hone par AI:
+
+1. Error detect kare
+2. Logs read kare
+3. Problem identify kare
+4. Related files identify kare
+5. Root cause explain kare
+6. Fix prepare kare
+7. Diff show kare
+8. Approval ke baad fix apply kare
+9. Dobara test/build kare
+
+Unlimited automatic loop mat chalao.
+
+Retry limit aur safety controls rakho.
+
+==================================================
+8. TESTING SYSTEM
+==================================================
+
+AI automatically appropriate tests run kare:
+
+- Unit tests
+- Integration tests
+- End-to-end tests
+- Build tests
+- API tests
+- UI tests where supported
+
+Result:
+
+PASSED
+FAILED
+WARNING
+
+Failed test ke liye AI explanation aur fix suggestion de.
+
+==================================================
+9. AI SECURITY SYSTEM
+==================================================
+
+Dedicated Security AI rakho.
+
+Security AI check kare:
+
+- Exposed API keys
+- Secrets
+- Unsafe code
+- Authentication problems
+- Authorization problems
+- Dependency vulnerabilities
+- Dangerous commands
+- Database risks
+- User permission problems
+
+Sensitive information ko AI prompts/logs me unnecessarily expose mat karo.
+
+==================================================
+10. ROLE-BASED PERMISSIONS
+==================================================
+
+Roles:
+
+OWNER
+ADMIN
+DEVELOPER
+VIEWER
+
+Har role ke permissions alag hon.
+
+Production changes sirf authorized users kar saken.
+
+==================================================
+11. MASSIVE MULTI-AGENT AI SYSTEM
+==================================================
+
+System ko 100,000,000 VIRTUAL AI AGENTS ki theoretical capacity ke liye scalable architecture ke saath design karo.
+
+IMPORTANT:
+
+100 million separate AI models ko continuously run karna required nahi hai.
+
+Virtual AI agents dynamically create, assign, activate, pause aur deactivate hon.
+
+Workload ke according actual AI workers/resources use hon.
+
+System theoretically support kare:
+
+1 AI agent
+10
+100
+1,000
+10,000
+100,000
+1,000,000+
+up to 100,000,000 virtual agent identities/tasks/capacity.
+
+Unused agents automatically sleep/deactivate ho jayen.
+
+==================================================
+12. SPECIALIZED AI AGENTS
+==================================================
+
+MASTER AI
+- Complete project coordinate kare
+- User request samjhe
+- Tasks divide kare
+- Agents assign kare
+- Final result verify kare
+
+PROJECT MANAGER AI
+- Tasks create kare
+- Priority set kare
+- Progress track kare
+
+RESEARCH AI
+- Technical approaches analyze kare
+- Possible solutions compare kare
+
+FRONTEND AI
+- UI/UX
+- Components
+- Responsive design
+
+BACKEND AI
+- Server logic
+- APIs
+- Authentication
+
+DATABASE AI
+- Schema
+- Queries
+- Migrations
+- Database optimization
+
+CODING AI
+- Code write/edit kare
+
+DEBUGGING AI
+- Errors aur bugs fix kare
+
+TESTING AI
+- Tests create/run kare
+
+SECURITY AI
+- Security analysis kare
+
+PERFORMANCE AI
+- Speed/performance optimize kare
+
+BUILD AI
+- Build process handle kare
+
+CODE REVIEW AI
+- Code quality review kare
+
+DOCUMENTATION AI
+- Documentation/changelog generate kare
+
+DEPLOYMENT AI
+- Deployment preparation kare
+
+==================================================
+13. MULTI-AGENT ORCHESTRATION
+==================================================
+
+Example:
+
+User:
+"Instagram-style Reel Editor add karo."
+
+Master AI request ko divide kare:
+
+Project Manager AI
+↓
+Research AI
+↓
+UI/UX AI
+↓
+Frontend AI
+↓
+Backend AI
+↓
+Database AI
+↓
+Coding AI
+↓
+Testing AI
+↓
+Security AI
+↓
+Performance AI
+↓
+Code Review AI
+↓
+Build AI
+↓
+Master AI FINAL REVIEW
+
+Agents ek dusre ke results ko context ke saath receive kar saken.
+
+==================================================
+14. AI CONSENSUS SYSTEM
+==================================================
+
+Important changes ke liye multiple AI agents independently solution analyze kar saken.
+
+Example:
+
+AI Agent 1 → Solution A
+AI Agent 2 → Solution B
+AI Agent 3 → Solution C
+Security AI → Security review
+Performance AI → Performance review
+Code Review AI → Quality review
+
+Master AI sab results compare karke best solution recommend kare.
+
+User ko final recommendation aur reasoning dikhao.
+
+==================================================
+15. AGENT TASK QUEUE
+==================================================
+
+Powerful task queue banao.
+
+Har task me:
+
+- Unique ID
+- Priority
+- Assigned agent
+- Status
+- Input
+- Output
+- Error
+- Retry count
+- Timestamp
+- Parent task
+- Dependencies
+
+Task statuses:
+
+QUEUED
+RUNNING
+WAITING
+COMPLETED
+FAILED
+CANCELLED
+
+==================================================
+16. AGENT MEMORY
+==================================================
+
+Project-specific shared memory system banao.
+
+Memory me relevant infor
